@@ -26,6 +26,22 @@ usando SQL, como parte de un proyecto de portafolio en análisis de datos.
 5. Principales mercancías exportadas por tonelaje
 
 ---
+## 📊 Análisis realizados
+1. Las terminales que más movimiento portuario tuvieron en 2025 fueron:
+   SSA Y CONTECON con una diferencia entre ellas de 44,434.13 TON representando un
+   3.242%; lo cual nos dice que CONTECON tiene buen movimiento, si sigue así en el 2026 puede
+   aumentar el movimiento por tonelaje.
+2. Los meses que reportaron mayor movimiento de toneladas fueron
+   JUNIO con  335781.060
+   DICIEMBRE 293574.680
+   Y MARZO 291942.460;
+3. China lidera el movimiento portuario con 1,037,383.820 TON con un 70% por encima de Colombia, 
+   seguido de Colombia con 308,630.600 TON y último, 
+   COREA DEL SUR con 292,680.890. Se observa que la exportación se centra en los países asiáticos.
+4. Los Productos Minerales son la mercancía que más se exporta;
+   Concentrado de Cobre 271358.930 TON, seguido de MINERALES NO CONGELADOS: 131323.770 TON,
+   Concentrado de Plomo 88431.420, Concentrado de Plata: 85930.040 y, concentrado de Zinc:36961.230
+---
 
 ## 🔧 Técnicas SQL aplicadas
 - SELECT, FROM, WHERE, GROUP BY, ORDER BY
