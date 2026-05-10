@@ -26,21 +26,29 @@ usando SQL, como parte de un proyecto de portafolio en análisis de datos.
 5. Principales mercancías exportadas por tonelaje
 
 ---
-## 📊 Análisis realizados
-1. Las terminales que más movimiento portuario tuvieron en 2025 fueron:
-   SSA Y CONTECON con una diferencia entre ellas de 44,434.13 TON representando un
-   3.242%; lo cual nos dice que CONTECON tiene buen movimiento, si sigue así en el 2026 puede
-   aumentar el movimiento por tonelaje.
+##  🔎 Hallazgos Principales
+🏭 Terminales portuarias
+1. SSA y CONTECON lideraron el movimiento en 2025 con una diferencia entre ellas de apenas
+   44,434 TON (3.2%), lo que indica competencia estrecha en el primer lugar.
+   TIMSA superó a OCUPA en un 44.9%, aunque ambas se encuentran muy por debajo de las líderes.
+  📅 Estacionalidad de la carga
 2. Los meses que reportaron mayor movimiento de toneladas fueron
    JUNIO con  335781.060
    DICIEMBRE 293574.680
    Y MARZO 291942.460;
-3. China lidera el movimiento portuario con 1,037,383.820 TON con un 70% por encima de Colombia, 
-   seguido de Colombia con 308,630.600 TON y último, 
-   COREA DEL SUR con 292,680.890. Se observa que la exportación se centra en los países asiáticos.
+-Junio lidera con una diferencia de 102,019 TON respecto al mes de menor movimiento.
+-Diciembre refleja la actividad de temporada festiva global.
+🌍 Países destino
+3. China lidera con **1,037,383 TON**, un 70% por encima de Colombia (308,630 TON),
+   seguida de Corea del Sur (292,680 TON).
+ El patrón muestra una concentración marcada hacia mercados asiáticos.
+ 📦 Principales mercancías exportadas
 4. Los Productos Minerales son la mercancía que más se exporta;
    Concentrado de Cobre 271358.930 TON, seguido de MINERALES NO CONGELADOS: 131323.770 TON,
    Concentrado de Plomo 88431.420, Concentrado de Plata: 85930.040 y, concentrado de Zinc:36961.230
+   ⚠️ La carga **"No especificada"** ocupa el 2° lugar con 206,990 TON, lo que representa
+       una limitación en la calidad de los datos y sugiere que una parte significativa del
+       movimiento portuario no fue correctamente declarada por los operadores.
 ---
 
 ## 🔧 Técnicas SQL aplicadas
