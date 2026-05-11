@@ -26,29 +26,52 @@ usando SQL, como parte de un proyecto de portafolio en análisis de datos.
 5. Principales mercancías exportadas por tonelaje
 
 ---
-##  🔎 Hallazgos Principales
-🏭 Terminales portuarias
-1. SSA y CONTECON lideraron el movimiento en 2025 con una diferencia entre ellas de apenas
-   44,434 TON (3.2%), lo que indica competencia estrecha en el primer lugar.
-   TIMSA superó a OCUPA en un 44.9%, aunque ambas se encuentran muy por debajo de las líderes.
-  📅 Estacionalidad de la carga
-2. Los meses que reportaron mayor movimiento de toneladas fueron
-   JUNIO con  335781.060
-   DICIEMBRE 293574.680
-   Y MARZO 291942.460;
--Junio lidera con una diferencia de 102,019 TON respecto al mes de menor movimiento.
--Diciembre refleja la actividad de temporada festiva global.
-🌍 Países destino
-3. China lidera con **1,037,383 TON**, un 70% por encima de Colombia (308,630 TON),
-   seguida de Corea del Sur (292,680 TON).
- El patrón muestra una concentración marcada hacia mercados asiáticos.
- 📦 Principales mercancías exportadas
-4. Los Productos Minerales son la mercancía que más se exporta;
-   Concentrado de Cobre 271358.930 TON, seguido de MINERALES NO CONGELADOS: 131323.770 TON,
-   Concentrado de Plomo 88431.420, Concentrado de Plata: 85930.040 y, concentrado de Zinc:36961.230
-   ⚠️ La carga **"No especificada"** ocupa el 2° lugar con 206,990 TON, lo que representa
-       una limitación en la calidad de los datos y sugiere que una parte significativa del
-       movimiento portuario no fue correctamente declarada por los operadores.
+## 🔎 Hallazgos Principales
+
+### 🏭 Terminales portuarias
+SSA y CONTECON lideraron el movimiento en 2025 con una diferencia entre ellas de apenas
+44,434 TON (3.2%), lo que indica competencia muy estrecha en el primer lugar.
+TIMSA superó a OCUPA en un 44.9%, aunque ambas se encuentran muy por debajo de las líderes.
+
+### 📅 Estacionalidad de la carga
+
+| Mes | Tonelaje total |
+|-----|---------------|
+| Junio | 335,781 TON Fue el mes que mayor movimiento presentó |
+| Diciembre | 293,574 TON |
+| Marzo | 291,942 TON |
+| Mayo | 233,761 TON Fue el mes con menor movimiento |
+
+Junio lidera con una diferencia de 102,019 TON respecto al mes de menor movimiento.
+Diciembre refleja la actividad de temporada festiva global. Junio y Marzo requieren
+análisis comparativo con años anteriores para identificar la causa de su alto volumen.
+
+### 🗺️ Estados de origen
+Colima domina con **1,720,156 TON**, impulsado por el Puerto de Manzanillo —
+el más importante de México. Le sigue CDMX con 581,397 TON, con una diferencia
+de más de 1.1 millones de toneladas. Querétaro también destaca por su posición
+estratégica como hub logístico y concentración de empresas exportadoras.
+
+### 🌍 Países destino
+China lidera con **1,037,383 TON**, un 70% por encima de Colombia (308,630 TON),
+seguida de Corea del Sur (292,680 TON). El patrón muestra una concentración
+marcada hacia mercados asiáticos. Destaca que **Estados Unidos aparece en la
+posición #9**, lo que podría relacionarse con el contexto arancelario de 2025,
+aunque se requiere análisis comparativo con años anteriores para confirmarlo.
+
+### 📦 Principales mercancías exportadas
+
+| Mercancía | Tonelaje |
+|-----------|---------|
+| Concentrado de Cobre | 271,358 TON |
+| Carga no especificada | 206,990 TON |
+| Minerales no congelados | 131,323 TON |
+| Concentrado de Plomo | 88,431 TON |
+| Concentrado de Plata | 85,930 TON |
+
+Los **Productos Minerales** dominan las exportaciones. El **Tequila** aparece
+en la posición #7, reflejando su relevancia como producto emblema de México.
+
 ---
 
 ## 🔧 Técnicas SQL aplicadas
@@ -61,6 +84,6 @@ usando SQL, como parte de un proyecto de portafolio en análisis de datos.
 ---
 
 ## 📌 Nota
-Datos anonimizados para uso académico y de portafolio.
+Datos anonimizados para uso académico y de portafolio. NO OFICIALES.
 
 **Autora:** Andrea Galicia
